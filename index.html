@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="mascara-formulario" onclick="cliqueiNaMascara()"></div>
+
+    <div class="header">
+        <img src="./img/icon.png" alt="logo mario">
+        <a>Home</a>
+        <a>Nossos Serviços</a>
+        <a>Fale Conosco</a>
+    </div>
+
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img class="logo-mario" src="./img/logo.png" alt="logo do mario bros">
+            <p>Encanadores Mario e Luigi - Resolvemos seus problemas com Estilo</p>
+            <p>Do Brooklyn para o Reino dos Cogumelos! Somos Mario e Luigi, irmãos, encanadores e heróis nas horas
+                vagas.
+                Especialistas em canos entupidos, resgate de princesas e derrotar tartarugas gigantes. Se tem problema
+                no
+                encanamento (ou no castelo), a gente resolve com estilo — e uns pulos também. It’s-a us!</p>
+
+            <button onclick="cliqueiNoBotao()">ENTRE EM CONTATO</button>
+
+        </div>
+        <div>
+            <img class="imagem-mario-luigi" src="./img/mario.png" alt="logo mario">
+        </div>
+    </div>
+
+
+    <div class="caixa-video">
+        <video src="./img/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+
+    </div>
+
+    <a href="http://google.com">
+        <img class="logo-whatsapp" src="./img/whatsapp.png" alt="logo-whatsapp">
+    </a>
+
+    <form class="formulario-fale-conosco" action="https://formcarry.com/s/i9PpHqjM1Tx" method="POST"
+        enctype="multipart/form-data">
+        <input placeholder="Seu nome" name="Nome" type="text">
+        <input placeholder="Seu telefone" name="telefone" type="tel">
+        <textarea placeholder="Digite seu problema aqui..." name="duvida"></textarea>
+        <button type="submit">Fale Conosco</button>
+
+    </form>
+
+    <script src="script.js"></script>
+
+</body>
+
+<footer>Desenvolvido por <a class="linkedin" href="https://www.linkedin.com/in/rafael-mota-72619835a/">Rafael Mota ©</a></footer>
+
+</html>
